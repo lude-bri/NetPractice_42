@@ -6,6 +6,9 @@
 
 <!----------About----------->
 
+## About
+
+This project is a general practical exercise designed to help 42 students discover networking.
 
 <!----------Index----------->
 
