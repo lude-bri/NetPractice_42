@@ -67,11 +67,30 @@ An IP address is a numerical label assigned to each device on a network. It serv
 * **Location Addressing:** providing the location of the device in the network
 
 > [!IMPORTANT]
-> IPv4 addresses are written in the format: 192.168.1.1, where each number ranges from 0 to 255 (32-bit).
+> IPv4 addresses are written in the format: `192.168.1.1`, where each number ranges from 0 to 255 (32-bit).
 > IPv6 addresses are written in hexadecimal and are much longer (128-bit).
-
 
 # 3.2. Subnetwork
 
+A subnet is a smaller network within a larger one. Subnetting helps divide IP networks for better performance and security.
 
-Project about Networks
+Each IP address has two parts:
+
+* **Network ID**: identifies the network
+
+* **Host ID**: identifies the device
+
+A **subnet mask** (e.g., `255.255.255.0`) is used to separate the network part from the host part.
+For example:
+
+* IP: `192.168.1.34`
+
+* Subnet Mask: `255.255.255.0` → Network: `192.168.1.0`, Host: `34`
+
+Subnetting allows:
+
+1. Efficient IP address management
+
+2. Network segmentation
+
+3. Enhanced routing and security
